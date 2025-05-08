@@ -1,0 +1,139 @@
+.order-grid-container{
+    display: grid; 
+    gap: 30px;
+    padding: 50px; 
+    min-height: 450px;
+    max-width:100%;
+    grid-template-columns: repeat(5, minmax(300px, 1fr)); 
+      
+}
+
+.order-grid-container > div {
+
+    box-shadow:0.2px 1px 2px grey;
+    border:0.01px solid grey;
+    border-radius: 25px;
+    padding:10px;
+    background-color: ghostwhite;
+    height:250px;
+    
+}
+
+.order-grid-container h3{
+    font-size: 16px;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+    margin-top: -4px;
+    border-radius: 20px;
+}
+
+.order-grid-container h3>span{
+
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    color:blue;
+
+}
+
+.productname{
+
+    position:relative;
+    top: 10px;
+    left:-70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 20px;
+    font-size: larger;
+
+}
+
+.productprice{
+
+    position:relative;
+    top: -100px;
+    left:40px;
+
+}
+
+.productstatus{
+
+    position:relative;
+    top: 50px;
+    left:80px;
+    color:green;
+    font-weight: bold;
+    
+}
+
+.productquantity{
+
+    position:relative;
+    top: -100px;
+    left:50px;
+
+}
+
+.ordertime{
+
+    position:relative;
+    top:-20px;
+
+}
+
+.orderheading{
+
+     margin-left:40px;
+    
+}
+
+.noorders>h1{
+
+    margin:auto;
+    position:absolute;
+    left:40%;
+    top:50%;
+         
+}
+/* .order-grid-container .addtocartbtn {
+    width:90%;
+    height:50px;
+    background-color: aqua;
+    margin:10px;
+    color:black;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor:pointer;
+}
+
+.notaddtocartbtn{
+
+    width:90%;
+    height:50px;
+    background-color: white;
+    margin:10px;
+    color:black;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.plusbtn{
+    float:right;
+}
+
+.minusbtn{
+    float:left;
+} */
+
+.order-grid-container img{
+    width:50%;
+    height: 100px;
+}
+
+/* #cartresponse{
+    height: 10px;
+    text-align: center;
+    color:green;
+   
+
+} */
